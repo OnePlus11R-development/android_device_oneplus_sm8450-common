@@ -180,6 +180,11 @@ ro.netflix.bsp_rev=Q8450-34634-1
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 
+# Power
+vendor.powerhal.interaction.max=3000
+vendor.powerhal.interaction.min=600
+vendor.powerhal.interaction.offset=100
+
 # Radio
 persist.radio.multisim.config=dsds
 persist.vendor.radio.apm_sim_not_pwdn=1
